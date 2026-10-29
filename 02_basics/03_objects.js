@@ -1,7 +1,10 @@
 // singleton
 // Object.create
 
-// object literals
+/* object literals
+  Object - (dictonay ke jaisa h ) An object in JavaScript is a standalone entity that stores data as a collection
+  of key-value pairs. Unlike primitive data types (like strings or numbers) which store a 
+  single value, objects let you group related data and functionality together*/
 
 const mySym = Symbol("key1")
 
@@ -24,7 +27,7 @@ const JsUser = {
 
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "hitesh@microsoft.com"    // immutable cannot change 
 // console.log(JsUser);
 
 JsUser.greeting = function(){
