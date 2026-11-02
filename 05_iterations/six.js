@@ -10,7 +10,7 @@
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// const newNums = myNums.filter( (num) => {
+// const newNums = myNums.filter( (num) => {       /// curly i.e scope use krte h to hme return karna hi padega
 //     return num > 4
 // } )
 
@@ -37,9 +37,9 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
-  let userBooks = books.filter( (bk) => bk.genre === 'History')
+  let userBooks = books.filter( (bk) => bk.genre === 'History')       /// userBooks variable me jiska genre = history hoga ohi store hoga
 
-  userBooks = books.filter( (bk) => { 
+  userBooks = books.filter( (bk) => {       /// then userBooks me publish aur genre me filter kiya 
     return bk.publish >= 1995 && bk.genre === "History"
 })
   console.log(userBooks);
